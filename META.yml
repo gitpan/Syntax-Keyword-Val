@@ -16,4 +16,4 @@ name: Syntax-Keyword-Val
 requires:
   Data::Lock: 0
   Keyword::Simple: 0
-version: 0.001
+version: 0.002

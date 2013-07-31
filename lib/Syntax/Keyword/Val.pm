@@ -64,7 +64,7 @@ use C<my> for a read-only variant.
  val $foo = {a => 123, b => 456};
  $foo->{a}   = 666;       # ERROR
  $foo->{xyz} = "xyzzy";   # ERROR
- del $foo->{b};           # ERROR
+ delete $foo->{b};        # ERROR
 
 The implementation uses Data::Lock, which itself uses the very fast
 internal SV flag to enforce the read-only status, so there should be
